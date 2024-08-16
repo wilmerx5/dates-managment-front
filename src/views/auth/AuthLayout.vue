@@ -25,6 +25,7 @@ const authRoutes =[
                 </RouterLink>
         </nav>
         <RouterView/>
+        <h3>wotks</h3>
         
     </div>
 </template>
