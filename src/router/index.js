@@ -6,7 +6,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('@/views/auth/LogInView.vue'),
+      component: () => import('@/views/auth/AuthLayout.vue'),
     },
     {
       path: '/admin',

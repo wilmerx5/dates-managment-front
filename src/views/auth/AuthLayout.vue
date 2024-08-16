@@ -14,11 +14,11 @@ const authRoutes =[
     <div class="mx-auto lg:w-4/5 mt-20">
 
 
-        <nav class="mt-10 flex flex-col  items-center space-y-5 lg:flex-row lg:justify-between ls:space-y-0">
+        <nav class="flex flex-col align-between md:justify-between md:flex-row  space-y-2 md:space-y-0  text-center">
        
                 <RouterLink
                 v-for="authRoute in authRoutes"
-                class="uppercase font-bold text-white"
+                class="uppercase font-bold text-white m-0"
                 :to="{name:authRoute.name}"
                 >
                 {{ authRoute.txt }} 
